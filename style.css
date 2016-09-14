@@ -1,0 +1,27 @@
+/*Import z zewnetrznych zrodel*/
+<style>
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+</style>
+
+/*Zastosowanie czcionki i koloru do wszystkich elementow HTML*/
+*{
+    font-family: 'Open Sans', sans-serif !important;
+    color: #FFF;
+}
+
+/*Tlo strony*/
+body{
+    background-image:url(img/tlo-strony.jpg))
+}
+
+/*Stopka*/
+#footer {
+    clear: both;
+    text-align: center;
+}
+
+/*Naglowek tabeli*/
+#tblList thead{
+    background: gray;
+    color: #FFF;
+}

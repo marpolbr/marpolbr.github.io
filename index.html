@@ -1,7 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Zadanie</title>
+        
+        <!-- Biblioteka Google Fonts: https://developers.google.com/fonts/ -->
+        <!--type="text/css" w HTML5 nie trzeba używać--> 
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" > 
+    
+        <!-- Biblioteka Bootstrap -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                <!-- Dodanie css -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Dodanie Javascript -->
+        <script type="text/javascript" src="functions.js"></script>
+        
+    </head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="page-header">
+       <h1>Testowanie strony</h1> 
+    </div>
+    
+    <!-- Wprowadzanie danych -->
+    <div class="container">
+        <form id="frmOsoba" class="form-horizontal">
+            <div class="form-group">
+                <label for="txtID" class="col-sm-2 control-label">ID</label>
+                <div class="col-sm-4">
+                    <input type="text" id="txtID" class="form-control" placeholder="ID">
+                </div>
+            </div> 
+            <div class="form-group">
+                <label for="txtNazwa" class="col-lg-2 control-label">Nazwa</label>
+                <div class="col-sm-4">
+                    <input type="text" id="txtNazwa" class="form-control" placeholder="Nazwa">                    
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="txtTelefon" class="col-lg-2 control-label">Telefon</label>
+                <div class="col-sm-4">
+                    <input type="text" id="txtTelefon" class="form-control" placeholder="Telefon">                    
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="txtEmail" class="col-lg-2 control-label">E-mail</label>
+                <div class="col-sm-4">
+                    <input type="email" id="txtEmail" class="form-control" placeholder="E-mail">                    
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-sm-4">
+                    <input type="submit" value="Zapisz" id="btnSave" class="btn btn-success"/>                    
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <!-- Lista danych -->
+    <div class="container">
+        <table id="tblList" class="table table-bordered"></table>
+    </div>
+    
+    <!-- Stopka -->
+        <div id="footer">
+            <div class="container">
+                <p class="text-muted credit">Copyright &copy; Marcin Półbrat</p>
+            </div>
+        </div>
 </body>
 </html>
