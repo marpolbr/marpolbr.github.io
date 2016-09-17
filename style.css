@@ -35,3 +35,14 @@ h1 {
 }
 
 
+.buttonStronaGlowna {
+    margin: auto;
+    display: block;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+
