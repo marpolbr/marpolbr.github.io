@@ -20,7 +20,7 @@ $('#testSzczegoly').click(function(){
     //wyswietlenie danych w tabeli
     $("#tabelaOsob").html(
         "<tr>" +
-        "<th>Imie</th>" +
+        "<th>Imię</th>" +
         "<th>Nazwisko</th>" +
         "<th>Email</th>" +
         "<th>Telefon</th>" +

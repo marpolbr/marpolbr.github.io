@@ -1,11 +1,37 @@
-/*
+
 body{
-    background-image: url(../img/tlo-strony.jpg);
+    background-image: url(/img/tlo-strony.jpg);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
-*/
+
 footer {
     text-align: center;
     clear: both;
 }
+
+
+table {           
+    font-family: arial, sans-serif;            
+    border-collapse: collapse;           
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;   
+}
+            
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
