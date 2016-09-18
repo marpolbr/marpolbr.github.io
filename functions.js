@@ -9,7 +9,7 @@ $(document).ready(function(){
             "<td>" + bazaOsob.osoba[i].nazwisko + "</td>" +
             "<td>" + bazaOsob.osoba[i].email + "</td>" +
             "<td>" + bazaOsob.osoba[i].telefon + "</td>" +            
-            "<td><a href='widokszczeg.html' id='linkWidokSzczegolowy'><Button id='btnSzczegoly"+[i]+"' type='button' class='testujese btn btn-info btn-sm'>Szczegoly</Button></a></td>" +
+            "<td><a href='widokszczeg.html?numer="+[i]+"'><Button id='btnSzczegoly"+[i]+"' type='button' class='btn btn-info btn-sm'>Szczegóły</Button></a></td>" +
             "</tr>";
     };
 
@@ -24,42 +24,15 @@ $(document).ready(function(){
         "</tr>" +
         daneOsobowe
     );
-    
-        
-//
-//        $("#btnSzczegoly"+[i]).click(function(){
-//            var strLink = "widokszczeg.html?" + i;
-//            $("#linkWidokSzczegolowy").attr("href",strLink);
-//        });
-    
-//    $("#btnSzczegoly0").click(function() {
-//    var contentPanelId = $(this).attr("id");
-//    alert(contentPanelId);
-//});
-    
-//        $("#btnSzczegoly0").click(function(event) {
-//        // this.append wouldn't work
-//        $(this).append(" Clicked");
-//    });
-    
-        $("a").click(function(event) {
-        alert(event.target.id);
-    });
-    
-        
 
+    //pobranie wartosci parametru numer z URL
+    var parametrURL = location.search.split('numer=')[1];
     
-    //    var daneTest = "";
-//    $("#testSzczeg").html("<p>" + bazaOsob.osoba[scrt_var].imie + " " + bazaOsob.osoba[scrt_var].nazwisko + "<p>");
+    $("#testSzczeg").html(
+        "<p>"+parametrURL+"</p>"
+    );
 
-//        var scrt_var = 0;
-//    $("#btnSzczegoly0").click(function(){
-//        var strLink = "widokszczeg.html?" + scrt_var;
-//        $("#linkWidokSzczegolowy").attr("href",strLink);
-//    });
-    
 
-    
 
 });
 
