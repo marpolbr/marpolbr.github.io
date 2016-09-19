@@ -43,4 +43,10 @@ p {
     text-align: center;
 }
 
+.imgPerson{
+    width:  20%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
 

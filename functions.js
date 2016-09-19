@@ -52,31 +52,7 @@ function loadSpecificUser() {
         loadTabelaRodzice();
         loadTabelaInfoDodatkowe();
         
-        
-//            "<tr><th>Dane</th></tr>" +
-//                "<tr><td>" + wybranaOsoba.imie + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.nazwisko + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.nazwiskoRodowe + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.nrDomu + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.ulica + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.kod + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.miasto + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.dataUrodzenia + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.miejsceUrodzenia + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.PESEL + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.NIP + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.imieOjca + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.imieMatki + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.plec + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.nazwiskoMatki + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.rodzajDokumentuTozsamosci + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.wydanyPrzez + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.nrDokumentu + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.email + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.telefon + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.wyksztalcenie + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.obywatelstwo + "</td></tr>" +
-//                "<tr><td>" + wybranaOsoba.narodowosc + "</td></tr>"
+  
         
         function loadTabelaInfoPodstawowe(){
             $("#tabelaInfoPodstawowe").html(
