@@ -1,6 +1,8 @@
-<html>
+<html lang="en">
     <head>
-        <title>Widok szczegółowy</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, maximum-scale=1"/>
+        <title>Szczegóły</title>
         
         <!-- Dodanie css -->
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -17,7 +19,6 @@
                 <!-- Dodanie Javascript -->
         <script src="functions.js"></script>
         
-        
         <!-- Dodanie bazy osob -->
         <script src="baza.js"></script>
         
@@ -28,23 +29,39 @@
     
     <body>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <h1>Widok szczegółowy</h1>
         
-        <div>
+        
+        <div class="container">
+            <h1>Widok szczegółowy</h1>
+        </div>
+        
+        <div class="container">
             <a href='index.html'><Button type='button' class='buttonStronaGlowna btn btn-primary btn-sm'>Strona główna</Button></a>
         </div>
-        <div>
+        <div class="container">
             <img class="imgPerson" src="img/social.png" alt="Wrong image">
         </div>
-        <div>
-            <table id="tabelaInfoPodstawowe"></table>
-            <table id="tabelaInfoKontaktowe"></table>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <table id="tabelaInfoPodstawowe"></table>
+                </div>
+                <div class="col-md-6">
+                    <table id="tabelaInfoKontaktowe"></table>
+                </div>
+            </div>
         </div>
-        <div>
-            <table id="tabelaDokumentTozsamosci"></table>
-            <table id="tabelaRodzice"></table>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <table id="tabelaDokumentTozsamosci"></table>
+                </div>
+                <div class="col-md-6">
+                    <table id="tabelaRodzice"></table>
+                </div>
+            </div>
         </div>
-        <div>
+        <div class="container">
             <table id="tabelaInfoDodatkowe"></table>
         </div>
         <script>loadSpecificUser()</script>
@@ -52,7 +69,10 @@
         
     
     <!-- Stopka -->
-        <footer class="text-muted credit">Copyright &copy; Marcin Półbrat</footer>
+        <div class="container">
+            <footer class="text-muted credit">Copyright &copy; Marcin Półbrat</footer>
+        </div>
+        
 
 </body>
 </html>

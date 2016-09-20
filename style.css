@@ -1,3 +1,44 @@
+#ulNavigationBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#ulNavigationBar li {
+    float: left;
+    margin-right: 1%
+}
+
+#ulNavigationBar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 11px 16px;
+    text-decoration: none;
+}
+
+#ulNavigationBar li a:hover:not(.active) {
+    background-color: rgba(227, 78, 78,0.2);
+    border-radius: 20%;
+    opacity: 0.5;
+}
+
+#ulNavigationBar .active {
+    background-color: rgb(227, 78, 78);
+    border-radius: 20%;
+
+}
+
+#backgroundHome{
+    background-image: url(img/tloHome.jpg);
+    background-size: 100%;
+}
+
+
+
+
+/*
 
 body{
     background-image: url(/img/tlo-strony.jpg);
@@ -50,3 +91,4 @@ p {
     display: block;
 }
 
+*/

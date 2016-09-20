@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, maximum-scale=1"/>
@@ -30,25 +30,41 @@
 
     </head>
     
-    <body>
+    <body id="backgroundHome">
         <link rel="stylesheet" type="text/css" href="style.css">
 
-
-        <div>
+        
+        <div class="container">
             <h1 id="naglowekIndex">Dane osobowe użytkowników</h1>
         </div>
-        <div id="pagination"></div>
+        <div class="container">     
+            <ul id="ulNavigationBar">
+                <li ><a class="active" href="index.html">Home</a></li>
+                <li ><a href="contact.html">Contact</a></li>
+                <li ><a href="about.html">About</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div id="pagination"></div>
+        </div>
         
-        <table id="tabelaOsob"></table>
-        <script>loadUserList();</script>
+        
+        <div class="container">
+            <table id="tabelaOsob"></table>
+            <script>loadUserList();</script>
+        </div>
+        
         
         <script src="../paginacja/js/jquery-1.10.2.min.js"></script>
         <script src="../paginacja/js/jquery.simplePagination.js"></script>              
         <script>paginacja();</script>
         
-        
+
     <!-- Stopka -->
-        <footer class="text-muted credit">Copyright &copy; Marcin Półbrat</footer>
+        <div class="container">
+            <footer class="text-muted credit">Copyright &copy; Marcin Półbrat</footer>
+        </div>
+        
 
 </body>
 </html>

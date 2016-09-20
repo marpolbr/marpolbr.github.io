@@ -27,16 +27,7 @@ function loadUserList() {
                 "<thead>" +
                 "<tbody>" +
                 daneOsobowe +
-                "</tbody>" +
-                "<tfoot>" +
-                "<tr>" +
-                "<th>Imię</th>" +
-                "<th>Nazwisko</th>" +
-                "<th>Email</th>" +
-                "<th>Telefon</th>" +
-                "<th>Szczegóły</th>" +
-                "</tr>" +
-                "</tfoot>"
+                "</tbody>"
         );
     });
 }
