@@ -18,11 +18,11 @@ function loadUserList() {
         $("#tabelaOsob").html(
             "<thead>" +
                 "<tr>" +
-                "<th>Imię</th>" +
-                "<th>Nazwisko</th>" +
-                "<th>Email</th>" +
-                "<th>Telefon</th>" +
-                "<th>Szczegóły</th>" +
+                "<th>IMIĘ</th>" +
+                "<th>NAZWISKO</th>" +
+                "<th>E-MAIL</th>" +
+                "<th>TELEFON</th>" +
+                "<th></th>" +
                 "</tr>" +
                 "<thead>" +
                 "<tbody>" +
@@ -132,7 +132,7 @@ function paginacja() {
         $("#pagination").pagination({
             items: numItems,
             itemsOnPage: perPage,
-            cssStyle: "light-theme",
+            cssStyle: "dark-theme",
             onPageClick: function (pageNumber) { // this is where the magic happens
                 // someone changed page, lets hide/show trs appropriately   
                 var showFrom = perPage * (pageNumber - 1),

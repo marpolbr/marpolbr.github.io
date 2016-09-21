@@ -33,36 +33,35 @@
     <body id="backgroundHome">
         <link rel="stylesheet" type="text/css" href="style.css">
 
-        
-        <div class="container">
-            <h1 id="naglowekIndex">Dane osobowe użytkowników</h1>
-        </div>
-        <div class="container">     
+        <div>
             <ul id="ulNavigationBar">
                 <li ><a class="active" href="index.html">Home</a></li>
                 <li ><a href="contact.html">Contact</a></li>
                 <li ><a href="about.html">About</a></li>
             </ul>
-        </div>
-        <div class="container">
-            <div id="pagination"></div>
+        </div>  
+        <div>
+            <h1 id="naglowekIndex">DANE OSOBOWE UŻYTKOWNIKÓW</h1>
         </div>
         
         
-        <div class="container">
+        
+        <div>
             <table id="tabelaOsob"></table>
             <script>loadUserList();</script>
         </div>
-        
-        
-        <script src="../paginacja/js/jquery-1.10.2.min.js"></script>
-        <script src="../paginacja/js/jquery.simplePagination.js"></script>              
-        <script>paginacja();</script>
+        <div id="positionPagination">
+            <div id="pagination"></div> 
+            <script src="../paginacja/js/jquery-1.10.2.min.js"></script>
+            <script src="../paginacja/js/jquery.simplePagination.js"></script>              
+            <script>paginacja();</script>
+        </div>
+
         
 
     <!-- Stopka -->
-        <div class="container">
-            <footer class="text-muted credit">Copyright &copy; Marcin Półbrat</footer>
+        <div>
+            <footer class="text-muted credit" id="footerSettings">Copyright &copy; Marcin Półbrat</footer>
         </div>
         
 
