@@ -161,24 +161,31 @@ h1{
     border-bottom-left-radius: 20%; 
 }
 
-#tabelaInfoPodstawowe{
+#tabelaInfoPodstawowe td:first-child{
+    font-weight: bold;
+}
+
+#tabelaInfoKontaktowe td:first-child{
+    font-weight: bold;
     
 }
 
-#tabelaInfoKontaktowe{
-    
+#tabelaDokumentTozsamosci td:first-child{
+    font-weight: bold;
+    padding-right: 155px;
 }
 
-#tabelaDokumentTozsamosci{
-    
+#tabelaRodzice td:first-child{
+    font-weight: bold;
+    padding-right: 135px;
 }
 
-#tabelaRodzice{
-    
-}
-
-#tabelaInfoDodatkowe{
+#tabelaInfoDodatkowe {
     margin: 0 auto;
+}
+
+#tabelaInfoDodatkowe td:first-child{
+    font-weight: bold;
 }
 
 
