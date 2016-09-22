@@ -98,12 +98,86 @@ h1{
 }
 
 .imgPerson{
-    width:  15%;
+    width:  140px;
     height: auto;
     margin: auto;
     display: block;
 }
 
+#odstep{
+    padding: 1%;
+}
 
+#naglowekImieNazwisko{
+    height: 150px;
+    background-color: white;
+    border-bottom: 5px solid #222;
+    border-top: 5px solid #222; 
+    display: table;
+}
+
+#childNaglowekImieNazwisko{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30;
+}
+
+#naglowekImg{
+    height: 150px;
+    background-color: white;
+    border-bottom: 5px solid #222;
+    border-bottom-left-radius: 45%;
+    border-top: 5px solid #222;
+    border-top-left-radius: 45%;
+}
+
+#naglowekRadiusPrawa{
+    height: 150px;
+    background-color: white;
+    border-bottom: 5px solid #222;
+    border-bottom-right-radius: 45%;
+    border-top: 5px solid #222;
+    border-top-right-radius: 45%;
+}
+
+.tabelkiSzczegolow{
+    background-color: white;
+    margin-bottom: 2%;
+}
+
+.tloTabelekDiv{
+    background-color: white;
+    border: 10px solid #222;
+}
+
+
+.headSzczegoly{
+    background-color: #222;
+    color: white;
+    padding: 5px;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%; 
+}
+
+#tabelaInfoPodstawowe{
+    
+}
+
+#tabelaInfoKontaktowe{
+    
+}
+
+#tabelaDokumentTozsamosci{
+    
+}
+
+#tabelaRodzice{
+    
+}
+
+#tabelaInfoDodatkowe{
+    margin: 0 auto;
+}
 
 

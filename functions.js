@@ -42,13 +42,14 @@ function loadSpecificUser() {
         loadTabelaDokumentTozsamosci();
         loadTabelaRodzice();
         loadTabelaInfoDodatkowe();
+//        loadPanPaniImieNazwisko();
         
   
         
         function loadTabelaInfoPodstawowe(){
             $("#tabelaInfoPodstawowe").html(
             "<thead>" +
-                "<tr><th>INFORMACJE PODSTAWOWE</th></tr>" +
+                "<tr><th class='headSzczegoly'><i class='glyphicon glyphicon-file''></i> INFORMACJE PODSTAWOWE</th><th></th></tr>" +
                 "<thead>" +
                 "<tbody>" +
                 "<tr><td>Imię:</td><td>" + wybranaOsoba.imie + "</td></tr>" +
@@ -63,7 +64,7 @@ function loadSpecificUser() {
         function loadTabelaInfoKontaktowe(){
             $("#tabelaInfoKontaktowe").html(
             "<thead>" +
-                "<tr><th>INFORMACJE KONTAKTOWE</th></tr>" +
+                "<tr><th class='headSzczegoly'><i class='glyphicon glyphicon-earphone'></i> INFORMACJE KONTAKTOWE</th><th></th></tr>" +
                 "<thead>" +
                 "<tbody>" +
                 "<tr><td>Adres:</td></tr>" +
@@ -78,7 +79,7 @@ function loadSpecificUser() {
         function loadTabelaDokumentTozsamosci(){
             $("#tabelaDokumentTozsamosci").html(
             "<thead>" +
-                "<tr><th>DOKUMENT TOŻSAMOŚCI</th></tr>" +
+                "<tr><th class='headSzczegoly'><i class='glyphicon glyphicon-credit-card'></i> DOKUMENT TOŻSAMOŚCI</th><th></th></tr>" +
                 "<thead>" +
                 "<tbody>" +
                 "<tr><td>Rodzaj:</td><td>" + wybranaOsoba.rodzajDokumentuTozsamosci + "</td></tr>" +
@@ -91,7 +92,7 @@ function loadSpecificUser() {
         function loadTabelaRodzice(){
             $("#tabelaRodzice").html(
             "<thead>" +
-                "<tr><th>RODZICE</th></tr>" +
+                "<tr><th class='headSzczegoly'><i class='glyphicon glyphicon-home'></i> RODZICE</th><th></th></tr>" +
                 "<thead>" +
                 "<tbody>" +
                 "<tr><td>Imię ojca:</td><td>" + wybranaOsoba.imieOjca + "</td></tr>" +
@@ -104,7 +105,7 @@ function loadSpecificUser() {
         function loadTabelaInfoDodatkowe(){
             $("#tabelaInfoDodatkowe").html(
             "<thead>" +
-                "<tr><th>INFORMACJE DODATKOWE</th></tr>" +
+                "<tr><th class='headSzczegoly'><i class='glyphicon glyphicon-duplicate'></i> INFORMACJE DODATKOWE</th><th></th></tr>" +
                 "<thead>" +
                 "<tbody>" +
                 "<tr><td>NIP:</td><td>" + wybranaOsoba.NIP + "</td></tr>" +
@@ -115,6 +116,16 @@ function loadSpecificUser() {
                 "</tbody>" 
             );
         }
+        
+       
+                $("#childNaglowekImieNazwisko").html(
+                    wybranaOsoba.plec + "<br>" + " " + wybranaOsoba.imie + " " + wybranaOsoba.nazwisko
+                );
+            
+        
+        
+        
+                  
         
     });
 }
