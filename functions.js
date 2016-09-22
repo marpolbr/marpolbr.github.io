@@ -181,3 +181,24 @@ function paginacja() {
         checkFragment();
     });
 }
+
+
+function loadPersonPicture(){
+    var parametrURL = location.search.split('numer=')[1],
+        wybranaOsoba = bazaOsob.osoba[parametrURL];
+    
+    if (wybranaOsoba.plec==='Pan'){
+        var plec='male';
+    } else {
+        var plec='female';
+    }
+    
+    $.ajax({
+  url: 'https://randomuser.me/api/?gender='+ plec +'&inc=picture',
+  dataType: 'json',
+  success: function(data) {
+    $('#face').attr('src',data.results[0].picture.large);
+  }
+});
+}
+
