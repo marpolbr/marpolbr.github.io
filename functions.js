@@ -42,7 +42,6 @@ function loadSpecificUser() {
         loadTabelaDokumentTozsamosci();
         loadTabelaRodzice();
         loadTabelaInfoDodatkowe();
-//        loadPanPaniImieNazwisko();
         
   
         
@@ -68,8 +67,8 @@ function loadSpecificUser() {
                 "<thead>" +
                 "<tbody>" +
                 "<tr><td>Adres:</td></tr>" +
-                "<tr><td>" + wybranaOsoba.ulica + " " + wybranaOsoba.nrDomu + "</td></tr>" +
-                "<tr><td>" + wybranaOsoba.kod + " " + wybranaOsoba.miasto + "</td></tr>" +
+                "<tr><td></td><td>" + wybranaOsoba.ulica + " " + wybranaOsoba.nrDomu + "</td></tr>" +
+                "<tr><td></td><td>" + wybranaOsoba.kod + " " + wybranaOsoba.miasto + "</td></tr>" +
                 "<tr><td>Telefon:</td><td>" + wybranaOsoba.telefon + "</td></tr>" +
                 "<tr><td>E-Mail:</td><td>" + wybranaOsoba.email + "</td></tr>" +
                 "</tbody>" 
@@ -181,7 +180,6 @@ function paginacja() {
         checkFragment();
     });
 }
-
 
 function loadPersonPicture(){
     var parametrURL = location.search.split('numer=')[1],

@@ -88,8 +88,8 @@ background: linear-gradient(to left, #1e3c72 , #2a5298); /* W3C, IE 10+/ Edge, F
 }
 
 #footerSettings{
-    padding-left: 80%;
-    padding-top: 1%;
+    text-align: center;
+    padding-top: 5%;
     font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -188,4 +188,40 @@ h1{
     font-weight: bold;
 }
 
+#naglowekContact{
+    color: white;
+    text-align: center;
+    font-size: 50;
+    font-family: Verdana, Geneva, sans-serif;
+}
 
+#daneKontaktowe{
+    color:white;
+    font-size: 20;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+}
+
+#naglowekAbout{
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30;
+}
+
+#listaTechnologii{
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20;
+}
+
+#naglowekOpisZadania{
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30;
+}
+
+#opisZadania{
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20;
+}
