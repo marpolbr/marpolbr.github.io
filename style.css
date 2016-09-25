@@ -10,15 +10,14 @@
 
 #ulNavigationBar li {
     float: left;
-    margin-right: 0.5%;
-    
+    margin-right: 0.5%;    
 }
 
 #ulNavigationBar li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 11px 16px;
+    padding: 8px 12px;
     text-decoration: none;
     border-radius: 10%;
     border: 1px solid rgb(51, 122, 183);
@@ -48,32 +47,36 @@ background: linear-gradient(to left, #1e3c72 , #2a5298); /* W3C, IE 10+/ Edge, F
 #naglowekIndex{
     color: white;
     text-align: center;
+    padding-top: 50px;
 }
 
 #tabelaOsob{
     background: white;
-    border: 10px solid #222;
+    border-left: 7px solid #222;
+    border-right: 7px solid #222;
+    border-top: 7px solid #222;
     text-align: left;
     margin: 0 auto;
+    font-size: 12px;
 }
 
 #tabelaOsob th{
     background: #222;
     color: white;
-    padding-left: 10px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 7px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 #tabelaOsob td{
-    padding-left: 10px;
-    padding-right: 20px;
+    padding-left: 7px;
+    padding-right: 15px;
     padding-top: 2px;    
     padding-bottom: 2px;
     border-bottom: 2px solid #c9c9c9;
-    height: 40px;
+    height: 30px;
     font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -89,30 +92,34 @@ background: linear-gradient(to left, #1e3c72 , #2a5298); /* W3C, IE 10+/ Edge, F
 
 #footerSettings{
     text-align: center;
-    padding-top: 5%;
     font-family: Verdana, Geneva, sans-serif;
+    position: fixed;
+    bottom: 0;
+    padding-left: 50px;
+
 }
 
 h1{
     font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
 }
 
 .imgPerson{
-    width:  140px;
+    width:  92px;
     height: auto;
     margin: auto;
     display: block;
 }
 
 #odstep{
-    padding: 1%;
+    padding-top: 1.5%;
 }
 
 #naglowekImieNazwisko{
-    height: 150px;
+    height: 100px;
     background-color: white;
-    border-bottom: 5px solid #222;
-    border-top: 5px solid #222; 
+    border-bottom: 4px solid #222;
+    border-top: 4px solid #222; 
     display: table;
 }
 
@@ -120,35 +127,38 @@ h1{
     display: table-cell;
     vertical-align: middle;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 30;
+    font-size: 22;
 }
 
 #naglowekImg{
-    height: 150px;
+    height: 100px;
     background-color: white;
-    border-bottom: 5px solid #222;
-    border-bottom-left-radius: 45%;
-    border-top: 5px solid #222;
-    border-top-left-radius: 45%;
+    border-bottom: 4px solid #222;
+    border-top: 4px solid #222;
+    border-left: 4px solid #222;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
 }
 
 #naglowekRadiusPrawa{
-    height: 150px;
+    height: 100px;
     background-color: white;
-    border-bottom: 5px solid #222;
-    border-bottom-right-radius: 45%;
-    border-top: 5px solid #222;
-    border-top-right-radius: 45%;
+    border-bottom: 4px solid #222;
+    border-top: 4px solid #222;
+    border-right: 4px solid #222;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
 }
 
 .tabelkiSzczegolow{
     background-color: white;
     margin-bottom: 2%;
+    border: 3px solid #222;
 }
 
 .tloTabelekDiv{
-    background-color: white;
-    border: 10px solid #222;
+/*    background-color: white;*/
+/*    border: 10px solid #222;*/
     font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -191,13 +201,14 @@ h1{
 #naglowekContact{
     color: white;
     text-align: center;
-    font-size: 50;
+    font-size: 37;
     font-family: Verdana, Geneva, sans-serif;
+    padding-top: 50px;
 }
 
 #daneKontaktowe{
     color:white;
-    font-size: 20;
+    font-size: 15;
     font-family: Verdana, Geneva, sans-serif;
     text-align: center;
 }
@@ -205,23 +216,25 @@ h1{
 #naglowekAbout{
     color: white;
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 30;
+    font-size: 20;
+    padding-top: 30px;
 }
 
 #listaTechnologii{
     color: white;
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 20;
+    font-size: 13;
 }
 
 #naglowekOpisZadania{
     color: white;
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 30;
+    font-size: 20;
+    padding-top: 30px;
 }
 
 #opisZadania{
     color: white;
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 20;
+    font-size: 13;
 }

@@ -66,7 +66,7 @@ function loadSpecificUser() {
                 "<tr><th class='headSzczegoly'><i class='glyphicon glyphicon-earphone'></i> INFORMACJE KONTAKTOWE</th><th></th></tr>" +
                 "<thead>" +
                 "<tbody>" +
-                "<tr><td>Adres:</td></tr>" +
+                "<tr><td>Adres:</td><td></td></tr>" +
                 "<tr><td></td><td>" + wybranaOsoba.ulica + " " + wybranaOsoba.nrDomu + "</td></tr>" +
                 "<tr><td></td><td>" + wybranaOsoba.kod + " " + wybranaOsoba.miasto + "</td></tr>" +
                 "<tr><td>Telefon:</td><td>" + wybranaOsoba.telefon + "</td></tr>" +
@@ -142,7 +142,7 @@ function paginacja() {
         $("#pagination").pagination({
             items: numItems,
             itemsOnPage: perPage,
-            cssStyle: "dark-theme",
+            cssStyle: "compact-theme",
             onPageClick: function (pageNumber) { // this is where the magic happens
                 // someone changed page, lets hide/show trs appropriately   
                 var showFrom = perPage * (pageNumber - 1),
