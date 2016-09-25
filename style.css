@@ -47,7 +47,7 @@ background: linear-gradient(to left, #1e3c72 , #2a5298); /* W3C, IE 10+/ Edge, F
 #naglowekIndex{
     color: white;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 5%;
 }
 
 #tabelaOsob{
@@ -85,14 +85,32 @@ background: linear-gradient(to left, #1e3c72 , #2a5298); /* W3C, IE 10+/ Edge, F
     background-color: #c9c9c9;
 }
 
-
-#footerSettings{
+#stopkaholder{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    position: static;
     text-align: center;
+    width: 100%;
+}
+
+#stopka{
+    background: none repeat scroll 0 0;
+    height: 30px;
+    margin: auto;
+    width: 300px;
+}
+/*
+#footerSettings{
+
     font-family: Verdana, Geneva, sans-serif;
     position: fixed;
-    bottom: 0;
-    padding-left: 50px;
+
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+*/
 
 h1{
     font-family: Verdana, Geneva, sans-serif;
@@ -100,6 +118,7 @@ h1{
 }
 
 #divNaglowkaSzczegoly{
+    margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -119,7 +138,7 @@ h1{
 }
 
 #odstep{
-    padding-top: 1.5%;
+    padding-top: 3%;
 }
 
 #naglowekImieNazwisko{
@@ -142,7 +161,7 @@ h1{
 .headSzczegoly th:first-child{
     background-color: #222;
     color: white;
-    padding-bottom: 5px;
+    padding: 5px;
     border-bottom-left-radius: 20%;
     
 }
@@ -150,13 +169,26 @@ h1{
 .headSzczegoly th:nth-child(2){
     background-color: #222;
     color: white;
-    padding-bottom: 5px;
+    padding: 5px;
     border-bottom-right-radius: 20%; 
 
 }
 
 #tabelaInfoPodstawowe{
     margin-left: 3%;
+}
+
+#tabelaInfoPodstawowe td{
+    padding: 4px;
+}
+#tabelaRodzice td{
+    padding: 4px;
+}
+#tabelaInfoDodatkowe td{
+    padding: 4px;
+}
+#tabelaDokumentTozsamosci td{
+    padding: 4px;
 }
 #tabelaInfoPodstawowe td:first-child{
     font-weight: bold;
@@ -204,6 +236,7 @@ h1{
 #tabelaRodzice{
     margin-top: 2%;
     margin-left: 2%;
+    margin-bottom: 10%;
 }
 
 #tabelaRodzice td:first-child{
@@ -221,16 +254,17 @@ h1{
 #naglowekContact{
     color: white;
     text-align: center;
-    font-size: 37;
+    font-size: 30;
     font-family: Verdana, Geneva, sans-serif;
-    padding-top: 50px;
+    padding-top: 5%;
 }
 
 #daneKontaktowe{
     color:white;
-    font-size: 15;
+    font-size: 12;
     font-family: Verdana, Geneva, sans-serif;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 #naglowekAbout{
@@ -244,13 +278,14 @@ h1{
     color: white;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 13;
+    margin-bottom: 5%;
 }
 
 #naglowekOpisZadania{
     color: white;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 20;
-    padding-top: 30px;
+    padding-top: 5%;
 }
 
 #opisZadania{
