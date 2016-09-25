@@ -37,61 +37,31 @@
                 <li ><a href="about.html">About</a></li>
             </ul>
         </div>  
-        <div id="odstep" class="container">
-        <div id="naglowekSzczegoly" class="container">
-            <div class="row">
-                <div class="col-md-2">
-                </div>
-                <div id="naglowekImg" class="col-md-2">
-                    <img class="imgPerson img-circle" id="face" alt="Wrong image">
-                    <script>loadPersonPicture();</script>
-                </div>
-                <div id="naglowekImieNazwisko" class="col-md-4">
-                    <div id="childNaglowekImieNazwisko"></div>
-                </div>
-                <div id="naglowekRadiusPrawa" class="col-md-2">
-                </div>
-                <div class="col-md-2">
-                </div>
+        
+        <div id="divNaglowkaSzczegoly">
+            <div id="naglowekImieNazwisko">
+                <img class="imgPerson img-circle" id="face" alt="Wrong image">
+                <script>loadPersonPicture();</script>
+                <p id="childNaglowekImieNazwisko"></p>
             </div>
+            <table id="tabelaInfoKontaktowe"></table>
         </div>
-        <div id="odstep" class="container">
-        </div>
-        <div class="container tloTabelekDiv">
-            <div class="row ">
-                <div class="col-md-1"></div>
-                <div class="col-md-5">
-                    <table id="tabelaInfoPodstawowe" class="tabelkiSzczegolow"></table>
-                </div>
-                <div class="col-md-6">
-                    <table id="tabelaInfoKontaktowe" class="tabelkiSzczegolow"></table>
-                </div>
-            </div>
-        </div>
-
-        <div class="container tloTabelekDiv">
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-5">
-                    <table id="tabelaDokumentTozsamosci" class="tabelkiSzczegolow"></table>
-                </div>
-                <div class="col-md-6">
-                    <table id="tabelaRodzice" class="tabelkiSzczegolow"></table>
-                </div>
-             
-            </div>
-        </div>
-        <div class="container tloTabelekDiv">
+        
+        <div id="odstep" class="container"></div>
+        <div class="tabeleZeSzczegolami">      
+            <table id="tabelaInfoPodstawowe" class="tabelkiSzczegolow"></table>     
             <table id="tabelaInfoDodatkowe" class="tabelkiSzczegolow"></table>
         </div>
-            </div>
+        <div class="tabeleZeSzczegolami">       
+            <table id="tabelaDokumentTozsamosci" class="tabelkiSzczegolow"></table>     
+            <table id="tabelaRodzice" class="tabelkiSzczegolow"></table>
+        </div>     
+        
         <script>loadSpecificUser()</script>
-
-    
     <!-- Stopka -->
-        <div class="container">
-            <footer class="text-muted credit" id="footerSettings">2016 Copyright &copy; Marcin Półbrat</footer>
-        </div>
+        
+        <footer class="text-muted credit" id="footerSettings">2016 Copyright &copy; Marcin Półbrat</footer>
+
         
 
 </body>
