@@ -67,10 +67,10 @@ function loadSpecificUser() {
         function loadTabelaInfoKontaktowe(){
             $("#tabelaInfoKontaktowe").html(
                 "<tbody>" +
-                "<tr><th><i class='glyphicon glyphicon-home'></i> Adres: </th>" +
-                "<td>" + wybranaOsoba.ulica + " " + wybranaOsoba.nrDomu + " " + wybranaOsoba.kod + " " + wybranaOsoba.miasto + "</td>" +
-                "<th><i class='glyphicon glyphicon-earphone'></i> Telefon: </th><td>" + wybranaOsoba.telefon + "</td>" +
-                "<th><i class='glyphicon glyphicon-envelope'></i> E-Mail: </th><td>" + wybranaOsoba.email + "</td></tr>" +
+                "<tr><th><i class='glyphicon glyphicon-home'></i> Adres:</th>" +
+                "<td>" + wybranaOsoba.ulica + " " + wybranaOsoba.nrDomu + ", " + wybranaOsoba.kod + " " + wybranaOsoba.miasto + "</td>" +
+                "<th><i class='glyphicon glyphicon-earphone'></i> Telefon:</th><td>" + wybranaOsoba.telefon + "</td>" +
+                "<th><i class='glyphicon glyphicon-envelope'></i> E-Mail:</th><td>" + wybranaOsoba.email + "</td></tr>" +
                 "</tbody>" 
             );
         }
